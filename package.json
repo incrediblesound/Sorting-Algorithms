@@ -1,0 +1,14 @@
+{
+    "name": "Sorting-Algorithms",
+    "version": "0.0.0",
+    "description": "",
+    "main": "main.js",
+    "author": "",
+    "keywords": [],
+    "license":"",
+    "repository" : {
+        "type": "git",
+        "url": "https://github.com/Syeoryn/Sorting-Algorithms"
+    },
+    "engines": { "node": "*" }
+}
