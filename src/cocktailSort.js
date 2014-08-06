@@ -7,7 +7,7 @@
 // into the second to last position, and so on 
 // until the array is sorted.
 
-var cocktailSort = function(array, start, end){
+exports.cocktailSort = function(array, start, end){
   start = start || 1;
   end = end || array.length;
   if(start >= end){

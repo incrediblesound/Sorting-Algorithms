@@ -2,7 +2,7 @@
 // If not sorted, it shuffles again.
 // If sorted, it stops
 
-var bogoSort = function(array){
+exports.bogoSort = function(array){
   var i = 0
   while(!isSorted(array)){
     i++;

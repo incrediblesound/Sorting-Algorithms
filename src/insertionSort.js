@@ -5,7 +5,7 @@
 // when an element is found to be less than the current element,
 // it's inserted after that element.
 
-var insertionSort = function(array){
+exports.insertionSort = function(array){
   // for every value in the array
   for(var i = 0; i < array.length; i++){
     // look back at the elements before it

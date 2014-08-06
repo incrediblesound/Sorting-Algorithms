@@ -4,7 +4,7 @@
 // and swaps them if out of order
 // this process repeats until the array is sorted
 
-var bubbleSort = function(array){
+exports.bubbleSort = function(array){
   var continueSorting = true;
 
   while(continueSorting){

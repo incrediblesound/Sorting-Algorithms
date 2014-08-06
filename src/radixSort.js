@@ -8,7 +8,7 @@
 // bucket, order is maintained from the previous order
 
 
-var binaryRadixSort = function(array){
+exports.binaryRadixSort = function(array){
   if(!array.length) return [];
   var negatives = [];
   var zeroes = [];

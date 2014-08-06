@@ -1,12 +1,12 @@
-var heapSort = require('./src/heapSort');
-var mergeSort = require('./src/mergeSort');
-var insertionSort = require('./src/insertionSort');
-var sleepSort = require('./src/sleepSort');
-var radixSort = require('./src/radixSort');
-var bogoSort = require('./src/bogoSort');
-var cocktailSort = require('./src/cocktailSort');
-var quickSort = require('./src/quickSort');
-var bubbleSort = require('./src/bubbleSort');
+var heapSort = require('./src/heapSort').heapSort;
+var mergeSort = require('./src/mergeSort').simpleMergeSort;
+var insertionSort = require('./src/insertionSort').insertionSort;
+var sleepSort = require('./src/sleepSort').sleepSort;
+var radixSort = require('./src/radixSort').binaryRadixSort;
+var bogoSort = require('./src/bogoSort').bogoSort;
+var cocktailSort = require('./src/cocktailSort').cocktailSort;
+var quickSort = require('./src/quickSort').quickSort;
+var bubbleSort = require('./src/bubbleSort').bubbleSort;
 
 module.exports = {
 

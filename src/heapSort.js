@@ -2,7 +2,7 @@
 // then removes values one at a time and puts them back
 // into an array, returning that array
 
-var heapSort = function(array){
+exports.heapSort = function(array){
   var heap = new Heap();
   while(array.length){
     heap.insert(array.pop());

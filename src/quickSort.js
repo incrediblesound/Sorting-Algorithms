@@ -14,7 +14,7 @@
 
   // Efficient implementations of quick sort are done in place, but are not stable.
 
-  var quickSort = function(array, start, end){
+  exports.quickSort = function(array, start, end){
     start = start || 0;
     if(end === undefined) end = array.length - 1;
     if(end - start <= 1) return array;

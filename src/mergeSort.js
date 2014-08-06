@@ -12,7 +12,7 @@
 // [1, 2, 3, 4, 5, 6, 7, 8], [9]
 // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-var simpleMergeSort = function(array){
+exports.simpleMergeSort = function(array){
   if(array.length === 1) return array;
   var left  = array.slice( 0, Math.floor(array.length / 2) );
   var right = array.slice( Math.floor(array.length / 2) );
